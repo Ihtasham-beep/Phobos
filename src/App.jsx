@@ -5,7 +5,7 @@ import ProductViewer from './components/ProductViewer';
 import gsap from 'gsap';
 import { ScrollTrigger  } from "gsap/all"; 
 import ShowCase from './components/ShowCase'; 
-import Perfomance from './components/Perfomance';
+import Performance from './components/Perfomance';
 import  Features from './components/Features';
 import  HighLights from './components/HighLights';
 import Footer from './components/Footer'
@@ -19,7 +19,7 @@ gsap.registerPlugin( ScrollTrigger );
         <Hero /> 
         <ProductViewer /> 
         <ShowCase /> 
-        <Perfomance />  
+        <Performance />  
         <Features /> 
         <HighLights />
         <Footer />
